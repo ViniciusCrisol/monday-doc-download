@@ -13,7 +13,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       <ToastContainer
         position="top-center"
         rtl={false}
-        autoClose={10000}
+        autoClose={false}
         draggable={false}
         newestOnTop={false}
         closeOnClick={false}
